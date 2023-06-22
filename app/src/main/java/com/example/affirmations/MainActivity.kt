@@ -55,7 +55,7 @@ fun AffirmationsApp() {
 @Composable
 fun AffirmationCard(affirmation: Affirmation, modifier: Modifier = Modifier) {
     Card(modifier = modifier) {
-        Column() {
+        Column{
             Image(
                 painter = painterResource(id = affirmation.imageResourceId),
                 contentDescription = stringResource(id = affirmation.stringResourceId),
